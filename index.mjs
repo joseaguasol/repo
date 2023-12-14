@@ -12,7 +12,7 @@ import routerDetallePedido from "./routes/relaciones_detallepedido_route.mjs";
 
 /** INICIA LA APP Y EL PUERTO */
 const app_sol = express();
-const port = 35474;
+const port = 5432;
 
 app_sol.use(cors());
 app_sol.use(express.json());
