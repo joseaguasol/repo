@@ -3,7 +3,7 @@ import pgPromise from 'pg-promise';
 const pgp = pgPromise();
 
 const connectionStr = {
-  connectionString: "postgres://aguasol:6lzdiAVb3XowppG7DSLxbAeEfEQjWESP@dpg-clthss5a73kc73ejf3lg-a.oregon-postgres.render.com/aguasol_l11a",
+  connectionString: "postgres://aguasol:lEowRxzb9EneOUf1gjuHvpiTU0c2yGzJ@dpg-clu7cvq1hbls73eb2t20-a.oregon-postgres.render.com/aguasol_qvou",
   ssl: {
     rejectUnauthorized: false // Esto permite la conexión sin verificar el certificado SSL/TLS. Utilízalo con precaución en producción.
   }
